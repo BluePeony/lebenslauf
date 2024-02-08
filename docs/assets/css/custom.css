@@ -45,20 +45,21 @@ body {
     font-size: 15px;
 }
 
+#edu-org, .resume-lang-list span {
+  font-size: 14px;
+}
 h4 {
     color: #313131;
 }
 
-#sender div, #date div {
-  margin-left: 82%;
-}
-
-#subject {
-  font-weight: bold;
-}
-
 .resume-intro, .resume-main .item-content, .resume-aside .item, .resume-lang-list, .resume-interests-list{
     font-size: 15px;
+}
+
+#career_objective {
+  font-style: italic;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .text-muted {
@@ -79,7 +80,7 @@ h4 {
     font-size: 17px;
 }
 .resume-main .item-meta, .resume-degree-time {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .resume-section-heading {
