@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'SangBleuSunrise-Regular';
+    //src: url('SangBleuSunrise-Regular-WebTrial.otf');
+    src: font-url('SangBleuSunrise-Regular-WebXL.eot');
+    src: font-url('SangBleuSunrise-Regular-WebXL.eot?#iefix') format('embedded-opentype'),
+         font-url('SangBleuSunrise-Regular-WebXL.woff2') format('woff2'),
+         font-url('SangBleuSunrise-Regular-WebXL.woff') format('woff'),
+         font-url('SangBleuSunrise-Regular-WebXL.ttf') format('truetype'),
+         font-url('SangBleuSunrise-Regular-WebXL.svg#SangBleuSunrise-Regular-WebXL') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SangBleuSunrise-Light';
+    //src: url('SangBleuSunrise-Regular-WebTrial.otf');
+    src: font-url('SangBleuSunrise-Light-WebXL.eot');
+    src: font-url('SangBleuSunrise-Light-WebXL.eot?#iefix') format('embedded-opentype'),
+         font-url('SangBleuSunrise-Light-WebXL.woff2') format('woff2'),
+         font-url('SangBleuSunrise-Light-WebXL.woff') format('woff'),
+         font-url('SangBleuSunrise-Light-WebXL.ttf') format('truetype'),
+         font-url('SangBleuSunrise-Light-WebXL.svg#SangBleuSunrise-Regular-WebXL') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.resume-name, .resume-section-heading, svg {
+    /*color: #5ec7a1;*/
+    color: #4bc196;
+
+}
+
+.resume-section-heading:before {
+    background: #4bc196;
+}
+
+body {
+    /*font-family: 'IBM Plex Sans', sans-serif;*/
+    font-family: 'Arsenal', sans-serif;
+    color: #373f43;
+    color: #363230;
+}
+
+.resume-contact, .resume-education-list {
+    font-size: 15px;
+}
+
+#edu-org, .resume-lang-list span {
+  font-size: 14px;
+}
+h4 {
+    color: #313131;
+}
+
+.resume-intro, .resume-main .item-content, .resume-aside .item, .resume-lang-list, .resume-interests-list{
+    font-size: 15px;
+}
+
+#career_objective {
+  font-style: italic;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.text-muted {
+    color: #6e6e6e !important;
+}
+
+@media print {
+    @page {
+      margin: 50cm;
+    }
+
+    @page :first {
+      margin: 50cm;
+    }
+}
+
+.resume-main .item-title, .resume-aside .item-title {
+    font-size: 17px;
+}
+.resume-main .item-meta, .resume-degree-time {
+    font-size: 14px;
+}
+
+.resume-section-heading {
+    font-size: 19px;
+}
+.resume-main .item-meta a {
+    font-weight: bold;
+}
+
+.resume-intro img {
+    margin-right: 0px !important;
+}
+
+.resume-profile-image {
+    width: 110px;
+}
